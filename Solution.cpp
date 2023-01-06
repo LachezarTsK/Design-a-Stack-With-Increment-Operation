@@ -4,6 +4,7 @@
 using namespace std;
 
 class CustomStack {
+    
     static const size_t STACK_IS_EMPTY = variant_npos;
     size_t topIndex = STACK_IS_EMPTY;
     vector<int> stack;
